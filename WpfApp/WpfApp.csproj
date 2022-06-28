@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\Align-Right.png" />
+    <None Remove="Image\AlignRight-WF.png" />
+    <None Remove="Image\Car-Loan-WF.png" />
+    <None Remove="Image\Car-Loan.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Align-Right.png" />
+    <Resource Include="Image\AlignRight-WF.png" />
+    <Resource Include="Image\Car-Loan-WF.png" />
+    <Resource Include="Image\Car-Loan.png" />
+  </ItemGroup>
+
+</Project>
